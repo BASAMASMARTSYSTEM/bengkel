@@ -68,6 +68,9 @@ $this->load->view('header', $data);
 						</div>
 						<div class="form-group">
 							<label for="KelompokAktiva">Kelompok Aktiva*</label>
+							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="top" title="Aktiva Tetap = TIDAK HABIS 1X PAKAI | Aktiva Lancar = HABIS 1X PAKAI">
+								<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+							</button>						
 								<select class="form-control" name="KelompokAktiva" data-error="Silahkan pilih kelompok aktiva" required>								 
 									 <option disabled selected value> -- pilih -- </option>
 									 <option value="AKTIVA TETAP">AKTIVA TETAP</option>
@@ -158,7 +161,12 @@ $(document).ready(function() {
         $(this).next().empty();
     });
 
+
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 
 function add_bahan()
