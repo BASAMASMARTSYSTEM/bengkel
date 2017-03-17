@@ -71,7 +71,7 @@ $this->load->view('header', $data);
 								<select class="form-control" name="KelompokAktiva" data-error="Silahkan pilih kelompok aktiva" required>								 
 									 <option disabled selected value> -- pilih -- </option>
 									 <option value="AKTIVA TETAP">AKTIVA TETAP</option>
-									 <option value="AKTIVA LANCAR">AKTIVA LANCAR</option>  								 
+									 <option value="AKTIVA LANCAR">AKTIVA LANCAR</option>
 								 </select>  
 							<div class="help-block with-errors"></div>
 						</div>						
