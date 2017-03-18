@@ -71,7 +71,7 @@ $this->load->view('header', $data);
 					<th class="text-center">ALAMAT</th>
 					<th class="text-center" style="width:19%">TELP/HP</th>
 					<th class="text-center">TELP/HP</th>
-					<th style="width:5%;"></th>
+					<th style="width:6%;"></th>
 				</tr>
 			</thead>		    
 		    <tbody>

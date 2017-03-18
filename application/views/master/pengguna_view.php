@@ -87,7 +87,7 @@ $this->load->view('header', $data);
 					<th class="text-center">NAMA PENGGUNA</th>					
 					<th class="text-center">TELEPON</th>
 					<th class="text-center">STATUS</th>
-					<th style="width:5%;"></th>
+					<th style="width:6%;"></th>
 				</tr>
 			</thead>		    
 		    <tbody>

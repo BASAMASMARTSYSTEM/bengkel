@@ -28,9 +28,8 @@ class Pengguna extends CI_Controller {
 			$row[] = $pengguna->Status;
 
 			//add html for action
-			$row[] = '<a href="javascript:void(0)" title="Ubah" onclick="ubah('."'".$pengguna->KodePengguna."'".')"><i class="glyphicon glyphicon-pencil"></i></a>
-					<span role="separator" class="divider">  |  </span> 
-				  <a href="javascript:void(0)" title="Hapus" onclick="hapus('."'".$pengguna->KodePengguna."'".')"><i class="glyphicon glyphicon-trash"></i></a>';
+			$row[] = '<a class="btn btn-sm btn-warning btn-xs" href="javascript:void(0)" title="Ubah" onclick="ubah('."'".$pengguna->KodePengguna."'".')"><i class="glyphicon glyphicon-pencil"></i></a> 
+				  <a class="btn btn-sm btn-danger btn-xs" href="javascript:void(0)" title="Hapus" onclick="hapus('."'".$pengguna->KodePengguna."'".')"><i class="glyphicon glyphicon-trash"></i></a>';
 		
 			$data[] = $row;
 		}

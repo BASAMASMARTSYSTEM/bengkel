@@ -104,7 +104,7 @@ $this->load->view('header', $data);
 					<th class="text-center">STOK</th>										
 					<th class="text-center">SATUAN</th>					
 					<th class="text-center">KELOMPOK</th>					
-					<th style="width:5%"></th>
+					<th style="width:6%"></th>
 				</tr>
 			</thead>		    
 		    <tbody>
