@@ -140,10 +140,14 @@ $(document).ready(function() {
         "columnDefs": [
         { 
             "targets": [ -1 ], //last column
-            "orderable": false, //set not orderable
+            "orderable": false, //set not orderable            
         },
+		{ 
+			"visible": false,  
+			"targets": [ 1 ] 
+		},
         ],
-
+        
     });
 
 
