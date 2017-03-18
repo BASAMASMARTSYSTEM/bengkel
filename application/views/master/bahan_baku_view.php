@@ -142,9 +142,23 @@ $(document).ready(function() {
             "targets": [ -1 ], //last column
             "orderable": false, //set not orderable            
         },
-		{ 
+		{ 			
 			"visible": false,  
-			"targets": [ 1 ] 
+			"targets": [ 4 ] 
+		},
+		{
+			"targets": [ 3 ],
+			"render": function ( data, type, row){
+				return row[3] + ' ' + row[4];
+			}
+		},
+		{
+			"render": $.fn.dataTable.render.number( ',', '.', 0, 'Rp ' ),
+			"targets": [ 1 ]
+		},
+		{
+			"render": $.fn.dataTable.render.number( ',', '.', 0, 'Rp ' ),
+			"targets": [ 2 ]
 		},
         ],
         
