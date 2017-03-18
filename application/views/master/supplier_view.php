@@ -69,7 +69,7 @@ $this->load->view('header', $data);
 				<tr>					
 					<th class="text-center">NAMA</th>
 					<th class="text-center">ALAMAT</th>
-					<th class="text-center">TELP/HP</th>
+					<th class="text-center" style="width:19%">TELP/HP</th>
 					<th class="text-center">TELP/HP</th>
 					<th style="width:5%;"></th>
 				</tr>
@@ -106,6 +106,16 @@ $this->load->view('header', $data);
             "targets": [ -1 ], //last column
             "orderable": false, //set not orderable
         },
+        { 			
+			"visible": false,  
+			"targets": [ 3 ] 
+		},
+		{
+			"targets": [ 2 ],
+			"render": function ( data, type, row){
+				return row[2] + ' | ' + row[3];
+			}
+		},
         ],
 
     });
