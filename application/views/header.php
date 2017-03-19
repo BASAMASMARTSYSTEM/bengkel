@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link type="text/css" href=<?php echo asset_css()."bootstrap.min.css"?> rel="stylesheet">
     <link type="text/css" href=<?php echo asset_css()."style.css"?> rel="stylesheet">
     <link type="text/css" href=<?php echo base_url()."assets/datatables/css/dataTables.bootstrap.css"?> rel="stylesheet">  
-	<link type="text/css" href=<?php echo asset_css()."bootcomplete.css"?> rel="stylesheet">  
+    <link type="text/css" href=<?php echo asset_css()."select2.min.css"?> rel="stylesheet">
 
     	<!-- Bootstrap core JS -->
 	<script type="text/javascript" src=<?php echo asset_js()."jquery-2.1.4.min.js"?>></script>
@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script type="text/javascript" src=<?php echo asset_js()."validator.min.js"?>></script>
     <script type="text/javascript" src=<?php echo base_url()."assets/datatables/js/jquery.dataTables.min.js"?>></script>
     <script type="text/javascript" src=<?php echo base_url()."assets/datatables/js/dataTables.bootstrap.js"?>></script>
-	<script type="text/javascript" src=<?php echo asset_js()."jquery.bootcomplete.js"?>></script>
+    <script type="text/javascript" src=<?php echo asset_js()."select2.min.js"?>></script>
 
     <div class="container-fluid">
 		<a href=<?php echo base_url();?>><img src=<?php echo asset_images()."bss.jpg"?> class="img-responsive center-block" alt="BASAMA.CO.ID" href="#"></a>

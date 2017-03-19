@@ -35,7 +35,7 @@ $this->load->view('header', $data);
 							<div class="form-body">							
 								<div class="form-group">
 									<label for="KodeToko">Pilih Toko Bahan*</label>
-									<input id="KodeToko" type="text" name="KodeToko" placeholder="Masukan nama toko bahan" class="form-control" data-error="Silahkan isi nama toko bahan" required>																				
+									<input type="text" class="form-control" name="KodeToko" placeholder="Nama Toko Bahan" data-error="Silahkan isi nama toko bahan" required>
 									<div class="help-block with-errors"></div>
 								</div>						
 			                </div>					
@@ -72,9 +72,12 @@ $this->load->view('header', $data);
 
 <!-- Kode untuk event -->
 <script type="text/javascript">
-    $('#KodeToko').bootcomplete({
-        url:'http://getwebhelp.com/bootcomplete/ajax/countries.php'
-    });
+	
+$('#KodeToko').select2({
+	
+});
+
+
 </script>
 
 <?php $this->load->view('footer'); ?>
