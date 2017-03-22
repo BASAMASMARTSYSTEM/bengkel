@@ -11,7 +11,7 @@ $this->load->view('header', $data);
 <div class="container-fluid text-center">	
 	<p><h2>DAFTAR SUPPLIER</h2></p>	
 </div>
-
+ 
 
 <!-- Button trigger modal -->
 <div class="container-fluid">
