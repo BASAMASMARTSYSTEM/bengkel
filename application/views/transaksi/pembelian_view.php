@@ -34,8 +34,8 @@ $this->load->view('header', $data);
 							<form action="#" id="form" role="form" data-toggle="validator">
 							<div class="form-body">							
 								<div class="form-group">
-									<label for="KodeToko">Masukan Toko Bahan*</label>
-									<input type="text" class="form-control" name="KodeToko" placeholder="Nama Toko Bahan" data-error="Silahkan isi nama toko bahan" required>
+									<label for="KodeToko">Pilih Toko Bahan*</label>
+									<input type="text" class="form-control" name="KodeToko" placeholder="Masukan Nama Toko Bahan" data-error="Silahkan isi nama toko bahan" required>
 									<div class="help-block with-errors"></div>
 								</div>						
 			                </div>					
